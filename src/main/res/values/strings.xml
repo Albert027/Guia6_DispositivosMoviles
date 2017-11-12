@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Guia6_Moviles</string>
+    <string name="text_radbtn1">Texto Blanco</string>
+    <string name="text_radbtn2">Texto Negro</string>
+    <string name="text_superior">Texto Superior</string>
+    <string name="text_inferior">Texto Inferior</string>
+    <string name="text_boton">Aplicar</string>
+</resources>

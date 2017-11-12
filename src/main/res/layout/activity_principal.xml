@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.atriox.guia6_moviles.PrincipalActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/RadBtnWhite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_radbtn1"/>
+
+        <RadioButton
+            android:id="@+id/RadBtnBlack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_radbtn2"/>
+
+        <EditText
+            android:id="@+id/TxtSuperior"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/text_superior"
+            android:textAlignment="center"/>
+
+        <ImageView
+            android:id="@+id/VisorImagen"
+            android:layout_width="match_parent"
+            android:layout_height="280dp" />
+
+        <EditText
+            android:id="@+id/TxtInferior"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/text_inferior"
+            android:textAlignment="center"/>
+
+        <Button
+            android:id="@+id/BtnAplicar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_boton"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="#FFFFFF"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
